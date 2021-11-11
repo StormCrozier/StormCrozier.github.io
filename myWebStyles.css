@@ -1,0 +1,11 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url("https://github.com/StormCrozier/StormCrozier.github.io/blob/main/images/Test.png");
+}
+img {
+  align-items: center;
+}
+#header {
+  text-align: center;
+  background-image: url("https://github.com/StormCrozier/StormCrozier.github.io/blob/main/images/Test.png");
+}

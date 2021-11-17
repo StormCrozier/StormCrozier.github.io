@@ -32,6 +32,7 @@ h6 {
 .bg-img {
   background-image: url(../StormCrozier.github.io/images/water_1.jpg);
   min-height: 400px;
+  /*width: 100%;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,6 +45,15 @@ h6 {
   text-align: center;
   margin-top: 200px;
   margin-bottom: 50px;
+}
+
+#iProj {
+  opacity: 0.3;
+}
+
+#iProj:hover {
+  box-shadow: 0 0 10px #ccc;
+  opacity: 1;
 }
 
 .list-group {

@@ -29,7 +29,6 @@ body {
 .bg-img {
   background-image: url(images/water_7.jpg);
   min-height: 400px;
-  /*width: 100%;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +58,6 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*background-color: #666;*/
   background-color: rgba(255, 255, 255, 0.5);
   position: fixed;
   top: 0;
@@ -84,32 +82,3 @@ li a:hover {
   background-color: var(--main-bg-5);
   color: var(--main-txt-5);
 }
-
-/*
-@media (max-width: 388px) {
-  #navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
-  }
-
-  li {
-    float: left;
-  }
-
-  li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    width: 200px;
-  }
-
-  li a:hover {
-    background-color: var(--main-bg-5);
-    color: var(--main-txt-5);
-  }
-}
-*/

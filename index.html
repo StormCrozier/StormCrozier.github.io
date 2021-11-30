@@ -30,12 +30,12 @@
     <!--ABOUT-->
     <div class="bg-img">
       <div id="forHeader">
-        <h1 id="header"> Storm Crozier</h1>
+        <h1 class="display-1" id="header"> Storm Crozier</h1>
       </div>
     </div>
     <div class="container">
-      <h1 class="text-center mt-3" id="about">About</h1>
-      <p class="bg-primary p-3 mx-3 my-5 border rounded border-primary">Hi my name is Storm Crozier, I am a
+      <h1 class="display-3 text-center mt-3" id="about">About</h1>
+      <p class="bg-primary p-3 mx-3 mt-3 border rounded border-primary" id="bBlue">Hi my name is Storm Crozier, I am a
         senior at Portland State University majoring in Computer
         Science.
         I am originally from Maui, Hawaii and I came to Portland for the city and education. I came to college right
@@ -48,8 +48,8 @@
       </p>
     </div>
     <!--PREVIOUS WORK-->
-    <div class="text-center mb-3" id="previousWork">
-      <h3>Previous work</h3>
+    <div class="border-top text-center mb-3" id="previousWork">
+      <h1 class="display-3 text-center">Previous work</h1>
       <ul class="list-group">
         <li>Worked as a construction laborer June 2017 - June 2020</li>
       </ul>
@@ -57,31 +57,34 @@
       <button type="submit" class="btn btn-primary rounded" onclick="window.open('Storm_Crozier_Resume.pdf')">Resume</button>
     </div>
     <!--PROJECTS-->
+    <div class="border-top"></div>
     <div class="container" id="projects">
-      <h3 class="text-center">Projects</h3>
-      <div class="row mt-3 mx-3 my-3 pt-3 pb-3 bg-primary border rounded border-primary">
-        <h5 class="text-center">Song Organizer</h5>
-        <p class="col-md-8 float-left">A program to organize songs into a binary search tree read in from a separate
-          file.
-          The songs are sorted by artist name and each song has a small description and 3 keywords so you can categorize
-          certain songs with each other.</p>
-        <a class="col-md-4" target="_blank">
-          <img src="images/download.png" class="col-md-12 img-fluid float-right" id="iProj" />
+      <h1 class="display-3 text-center">Projects</h1>
+      <div class="row mt-3 mx-3 my-3 pt-3 pb-3 bg-primary border rounded border-primary" id="bBlue">
+        <h1 class="display-6 text-center">Restaurant Organizer</h1>
+        <p class="col-lg-6 float-left">This was a project for an object-oriented class.  
+          This is one of my first times using Java; I have experimented with java before this project but nothing as big as this.  
+          This program read in from an external file of restaurants, and these restaurants could be real or fake.  
+          The restaurants are stored in a binary search tree, and each restaurant has a liner-linked list.  
+          These linear linked lists are filled with menu items from that restaurant.  
+          This project used a lot of object-oriented designs like polymorphism and dynamic binding to name a few.</p>
+        <a class="col-lg-6" href="https://github.com/StormCrozier/Restaurants" target="_blank">
+          <img src="images/restaurants.png" class="row mx-auto col-12 col-md-10 img-fluid" id="iProj" />
         </a>
       </div>
-      <div class="row mx-3 my-3 mt-3">
-        <h5 class="text-center">Weekly Calender</h5>
-        <a href="https://github.com/StormCrozier/Weekly-Calender" target="_blank" class="col-md-4">
-          <img src="images/weekly_calender.png" class="col-md-12 img-fluid float-left"
+      <div class="row mx-3 my-3 mt-3 pt-3 pb-3 border rounded">
+        <h1 class="display-6 text-center">Weekly Calender</h1>
+        <a href="https://github.com/StormCrozier/Weekly-Calender" target="_blank" class="col-lg-6">
+          <img src="images/weekly_calender.png" class="row mx-auto col-12 col-md-10 img-fluid"
             id="iProj" />
         </a>
-        <p class="col-md-8 float-right">This is a project that was an assignment due for an object-oriented class. Using
-          an
-          array to represent the days of the week and a doubly-linked list to represent activities to do for that day.
-        </p>
+        <p class="col-lg-6 float-right">This is a project that was an assignment for an object-oriented class.  
+          It used an array to represent the days of the week and a doubly-linked list to represent activities to do for that day.  
+          This was a relatively simple project and was my first time using an inheritance hierarchy.  
+          This program was helpful for planning out some of my days, and I might expand on it in the future.</p>
       </div>
-      <div class="row mx-3 my-3 mb-5 bg-primary pt-3 pb-3 bg-primary border rounded border-primary ">
-        <h5 class="text-center">Web Scraping</h5>
+      <div class="row mx-3 my-3 mb-5 bg-primary pt-3 pb-3 bg-primary border rounded border-primary" id="bBlue">
+        <h1 class="display-6 text-center">Web Scraping</h1>
         <p class="">This is a small script that I made while experimenting with python and web scraping. I have used
           python before but never attempted web scraping. For this small project, I used a python library called
           beautiful soup. This library has a beautiful soup object which takes the HTML from a web page and parses it
@@ -90,12 +93,12 @@
           Hawaii. The information was printed to the customer and also saved in an excel worksheet with the day and all
           the averages for that day. </p>
         <a href="https://github.com/StormCrozier/Covid-Cases" target="_blank">
-          <img src="images/covid_cases.png" class="row col-12 col-md-6 mx-auto" id="iProj" />
+          <img src="images/covid_cases.png" class="row col-md-10 col-lg-6 mx-auto" id="iProj" />
         </a>
       </div>
     </div>
     <!--CONTACT-->
-    <h1 class="text-center" id="contact">Contact Me</h1>
+    <h1 class="border-top display-3 text-center" id="contact">Contact Me</h1>
     <form class="border rounded w-50 mx-auto my-3 p-3"">
       <div class=" row mb-3">
       <div class="col-md-4">

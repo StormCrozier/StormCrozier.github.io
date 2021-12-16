@@ -23,7 +23,7 @@ body {
   color: var(--main-txt-5);
 }
 
-#bBlue {
+#textSec {
   color: var(--main-txt-7);
 }
 .bg-img {
@@ -45,7 +45,7 @@ body {
 }
 
 #iProj {
-  opacity: 0.3;
+  opacity: 0.9;
 }
 
 #iProj:hover {
@@ -58,7 +58,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.15);
   position: fixed;
   top: 0;
   width: 100%;
